@@ -19,13 +19,13 @@
             <h2>Flexbox Row</h2>
             <div class="dashed-box">
             <p class="instructions">Use these three properties to create a Flexbox row layout.</p>
-            <p class="snippet-code">
-                .row{
-                    display:flex;
-                    flex-direction:row;
-                    flex-wrap:;
-                }
-            </p>
+            <pre class="snippet-code"><code>
+    .row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:;
+    }</code>
+            </pre>
             </div>
         </section>
 
@@ -46,13 +46,13 @@
             <h2>CSS Grid Layout</h2>
             <div class="dashed-box">
             <p class="instructions">Build a 12-column layout using CSS Grid.</p>
-            <p class="snippet-code">
-                .grid{
-                    display:grid;
-                    width:100%;
-                    grid-template-columns: repeat (12,lfr);
-                }
-            </p>
+            <pre class="snippet-code"><code>
+    .grid {
+    display:grid;
+    width:100%;
+    grid-template-columns: repeat (12,lfr);
+    }</code>
+            </pre>
             </div>
         </section>
 
@@ -60,7 +60,16 @@
             <h2>Linear Gradients</h2>
             <div class="dashed-box">
             <p class="instructions">This will create a background linear gradient from top to bottom.</p>
-            <p class="snippet-code"></p>
+            <pre class="snippet-code"><code>
+    .linear-gradient-background {
+        background-image: linear-
+        gradient(
+            rgba(232, 102, 236, 0.3) 0%,
+            rgba (232, 102, 236, 0.6) 100%
+        );
+    }
+            </code>
+            </pre>
             </div>
         </section>
 
@@ -68,7 +77,20 @@
             <h2>Box Transition Glow</h2>
             <div class="dashed-box">
             <p class="instructions">Use transition and box shadows to glow on hover.</p>
-            <p class="snippet-code"></p>
+            <pre class="snippet-code"><code>
+    .code-card .card-header {
+        border-radius: 8px;
+        transition: all 0.5s ease-in-
+        out:
+    }
+    .code-card:hover,
+    .code-card:hover .card-header{
+        box-shadow: inset 0px 0px 8px 
+        rgba(232, 102, 236, 1), 0 0 15px
+        rgba(232, 102, 236, 1);
+    }
+            </code>
+            </pre>
             </div>
         </section>
 
@@ -76,7 +98,14 @@
             <h2>Overlay Card with Title</h2>
             <div class="dashed-box">
             <p class="instructions">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
-            <p class="snippet-code"></p>
+            <pre class="snippet-code"><code>
+    .card-header {
+        position: relative;
+        margin-top: -20px;
+    }
+            </code>
+
+            </pre>
             </div>
         </section>
 
