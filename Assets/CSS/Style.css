@@ -22,11 +22,41 @@ main {
     flex-direction:column;
 }
 
+.card {
+        margin: 1%;
+        flex: 1 0 auto;
+        width: 100%;
+}
+
 h2{
-    border-style: solid white 3px;
-    
+    font-size:28px;
+    border: solid whitesmoke 2px;
+    border-radius:10px;
+    margin:0 4% 0;
+    padding: 0.1%;
+}
+
+
+.dashed-box{
+    border: dashed whitesmoke 2px;
+    margin:0 2% 0;
+    border-radius:5px;
+}
+
+.instructions{
+    margin-left:2%;
+    font-size:18px;
 }
 
 .snippet-code{
-    color: white;
+    color: whitesmoke;
+    background:linear-gradient(rgb(155, 87, 155),magenta);
+    min-height: 200px;
+    margin:0 2% 2%;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+pre{
+    margin: 0%;
 }
