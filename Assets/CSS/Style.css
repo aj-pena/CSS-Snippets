@@ -1,0 +1,32 @@
+:root{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(56, 55, 58);
+    color: blueviolet
+
+}
+
+*{
+
+}
+
+header p {
+    color: white;
+
+}
+
+main {
+    display: flex;
+    flex-direction:column;
+}
+
+h2{
+    border-style: solid white 3px;
+    
+}
+
+.snippet-code{
+    color: white;
+}
